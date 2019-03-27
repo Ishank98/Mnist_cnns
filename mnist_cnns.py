@@ -1,10 +1,14 @@
-
+#mount your gdrive with colab notebook
 from google.colab import drive
 drive.mount('/content/gdrive')
 
 cd ..
 
+mkdir Tensorflow
+
 cd content/gdrive/My Drive/Tensorflow
+
+mkdir mnist
 
 cd mnist
 
